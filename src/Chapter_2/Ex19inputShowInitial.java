@@ -22,6 +22,5 @@ public class Ex19inputShowInitial {
         lastName = sc.next();
 
         System.out.println(firstName + " " + middleName.substring(0, 1) + "." + " " + lastName);
-
     }
 }
