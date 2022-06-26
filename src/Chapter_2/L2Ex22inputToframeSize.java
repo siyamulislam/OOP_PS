@@ -19,7 +19,6 @@ public class L2Ex22inputToframeSize {
         frameWidth = Integer.parseInt(sc.next());
         System.out.println("Enter frame Height"); // Input frameHeight
         frameHeight = Integer.parseInt(sc.next());
-        System.out.println(frameHeight + "" + frameWidth);
         JFrame window = new JFrame();
         window.setSize(frameWidth, frameHeight);
         window.setTitle("Width: " + frameWidth.toString() + " x Height: " + frameHeight.toString()); //Show in Window
