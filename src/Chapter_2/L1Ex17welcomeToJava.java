@@ -8,7 +8,7 @@ then the title would be Strauss, Johann.
 *  @author Siam_PC
  */
 import javax.swing.*;
-public class Ex17welcomeToJava {
+public class L1Ex17welcomeToJava {
    public static void main(String arg []){
        JFrame window=new JFrame();
        window.setSize(800, 600);

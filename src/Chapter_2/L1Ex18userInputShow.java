@@ -10,7 +10,7 @@ package Chapter_2;
 import java.util.Scanner;
 import javax.swing.*;
  
-public class Ex18userInputShow {
+public class L1Ex18userInputShow {
    public static void main(String arg []){
        String firstName,lastName;
        Scanner scanner =new Scanner(System.in);

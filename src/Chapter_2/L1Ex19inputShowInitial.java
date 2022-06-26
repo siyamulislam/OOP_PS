@@ -8,7 +8,7 @@
  */
 package Chapter_2;
 import java.util.Scanner;
-public class Ex19inputShowInitial {
+public class L1Ex19inputShowInitial {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
