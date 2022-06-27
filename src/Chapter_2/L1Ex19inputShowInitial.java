@@ -7,7 +7,9 @@
  * @author Siam_PC
  */
 package Chapter_2;
+
 import java.util.Scanner;
+
 public class L1Ex19inputShowInitial {
 
     public static void main(String[] args) {
