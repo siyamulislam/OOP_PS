@@ -1,13 +1,13 @@
+/*
+  Level 1 18. Input the user’s first and last name as two separate strings. Then display a frame
+  window with its title set to <last>, <first>, where <last> and <first> are the input values. For
+  example, if the input values are Johann and Strauss, then the title would be Strauss, Johann.
+ */
 package Chapter_2;
 
 /**
- * Level 1 18. Input the user’s first and last name as two separate strings. Then display a frame
- * window with its title set to <last>, <first>, where <last> and <first> are the input values. For
- * example, if the input values are Johann and Strauss, then the title would be Strauss, Johann.
- *
  * @author Siam_PC
  */
-
 import java.util.Scanner;
 import javax.swing.*;
 

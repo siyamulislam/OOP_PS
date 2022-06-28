@@ -15,17 +15,18 @@ import java.util.Scanner;
  * @author Siam_PC
  */
 public class L3Ex28CharDivisionMid {
-    public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
-        String word;
 
-        System.out.println("Enter Text"); // Input
-        word = sc.nextLine();
-        
-        Integer mid=word.length()/2;
-        
-        if(word.length()%2==1)mid=mid+1; 
-   
-        System.out.println(word.charAt(mid-1));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); 
+
+        System.out.print("Enter Text:"); 
+        String word = sc.nextLine();
+        Integer mid = word.length() / 2;
+
+        if (word.length() % 2 == 1) {
+            mid = mid + 1;
+        }
+
+        System.out.println(word.charAt(mid - 1));
     }
 }

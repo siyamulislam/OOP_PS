@@ -5,12 +5,12 @@
  * 11
  * I
  * a
+ *
  * @author Siam_PC
  */
 package Chapter_2;
 
 import java.util.Scanner;
-import javax.swing.JFrame;
 
 public class L3Ex27inputToCountChar {
 
@@ -18,15 +18,13 @@ public class L3Ex27inputToCountChar {
         Scanner sc = new Scanner(System.in);
         String text;
 
-        System.out.println("Enter Text"); // Input
+        System.out.print("Enter Text:"); // Input
         text = sc.nextLine();
-   
+
         System.out.println(text.length());
 //        System.out.println(text.substring(0,1));
 //System.out.println(text.substring(text.length()-1));
         System.out.println(text.charAt(0));
-        System.out.println(text.charAt(text.length()-1));
-        
-       
+        System.out.println(text.charAt(text.length() - 1));
     }
 }

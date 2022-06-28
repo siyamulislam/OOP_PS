@@ -16,13 +16,14 @@ public class L1Ex19inputShowInitial {
         Scanner sc = new Scanner(System.in);
         String firstName, middleName, lastName;
 
-        System.out.println("Enter your First Name"); // Input First Name
+        System.out.print("Enter your First Name:"); // Input First Name
         firstName = sc.next();
-        System.out.println("Enter your Middle Name"); // Input Middle Name
+        System.out.print("Enter your Middle Name:"); // Input Middle Name
         middleName = sc.next();
-        System.out.println("Enter your Last Name"); // Input Last Name
+        System.out.print("Enter your Last Name:"); // Input Last Name
         lastName = sc.next();
 
-        System.out.println(firstName + " " + middleName.substring(0, 1) + "." + " " + lastName);
+        System.out.println(firstName + " "
+                + middleName.substring(0, 1) + "." + " " + lastName);
     }
 }

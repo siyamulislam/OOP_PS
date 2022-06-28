@@ -15,13 +15,14 @@ public class L2Ex22inputToframeSize {
         Scanner sc = new Scanner(System.in);
         Integer frameWidth, frameHeight;
 
-        System.out.println("Enter frame Width"); // Input frame Width
+        System.out.print("Enter frame Width:"); // Input frame Width
         frameWidth = Integer.parseInt(sc.next());
-        System.out.println("Enter frame Height"); // Input frameHeight
+        System.out.print("Enter frame Height:"); // Input frameHeight
         frameHeight = Integer.parseInt(sc.next());
         JFrame window = new JFrame();
         window.setSize(frameWidth, frameHeight);
-        window.setTitle("Width: " + frameWidth.toString() + " x Height: " + frameHeight.toString()); //Show in Window
+        window.setTitle("Width: " + frameWidth.toString() 
+                + " x Height: " + frameHeight.toString()); //Show in Window
         window.setVisible(true);
     }
 }
