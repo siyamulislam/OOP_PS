@@ -14,7 +14,7 @@ public class L1Ex21DateFormat2 {
 
     public static void main(String[] args) {
         Date today=new Date();
-        SimpleDateFormat sdf1=new SimpleDateFormat("EEE MMMM dd, YYYY");
+        SimpleDateFormat sdf1=new SimpleDateFormat("EEEE MMMM dd, YYYY");
         System.out.println(sdf1.format(today));
     }
 }
