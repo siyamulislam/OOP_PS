@@ -39,6 +39,5 @@ public class L3Ex24TotalPrice {
         System.out.println("Sales tax: " + Tax * 100 + "%");
         System.out.println();
         System.out.println("Total price: $ " + totalPriceWithTax);
-
     }
 }

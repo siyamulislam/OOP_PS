@@ -28,7 +28,7 @@ public class L2Ex17AgeInPlants {
         Scanner sc = new Scanner(System.in);
         double earthAge, mercuryAge, venusAge, jupiterAge, saturnAge;
 
-        System.out.print("Age on earch: ");
+        System.out.print("Age on Earth: ");
         earthAge = sc.nextDouble();
 
         mercuryAge = (earthAge * 365) / 88;
