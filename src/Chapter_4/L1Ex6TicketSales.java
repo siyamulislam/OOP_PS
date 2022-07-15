@@ -11,12 +11,7 @@
  */
 package Chapter_4;
 
-import java.util.Scanner;
-
-/**
- *
- * @author Siam_PC
- */
+import java.util.Scanner; 
 public class L1Ex6TicketSales {
 
     public static void main(String[] args) {
