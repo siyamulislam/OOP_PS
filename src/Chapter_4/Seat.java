@@ -19,5 +19,4 @@ public class Seat {
     public void setPriceOfSeatC(double priceC) {
         priceOfSeatC = priceC;
     }
-
 }
