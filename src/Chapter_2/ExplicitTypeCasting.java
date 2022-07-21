@@ -12,11 +12,12 @@ package Chapter_2;
  */
 public class ExplicitTypeCasting {
     public static void main(String[] args) {
-        int x=12;
+        int x=(int) 12.5;
         System.out.println(x/4);
         System.out.println((float) x/4);
         System.out.println( x/3.0);
-        System.out.println((int) x/3.0);
+        System.out.println((int) x/12*3);
+        System.out.println((double) x/12*3);
     }
     
     
