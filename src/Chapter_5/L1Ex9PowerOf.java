@@ -38,7 +38,6 @@ public class L1Ex9PowerOf {
             case 100: System.out.println("Googol");
             break;
             default:System.out.println("Out of List");
-        }
-        
+        }    
     }
 }
