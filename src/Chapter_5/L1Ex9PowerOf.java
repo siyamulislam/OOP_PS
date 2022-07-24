@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author Siam_PC
  */
-public class L1Ex11PowerOf {
+public class L1Ex9PowerOf {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int power;
