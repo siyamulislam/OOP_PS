@@ -1,5 +1,5 @@
 /**
- * Level ex 9. One million is 106 and 1 billion is 109. Write a program that reads 
+ * Level 1 ex 9. One million is 106 and 1 billion is 109. Write a program that reads 
  * a power of 10 (6, 9, 12, etc.) and displays how big the number is (Million, Billion, etc.). 
  * Display an appropriate message for the input value that has no corresponding word. 
  * The table below shows the correspondence between the power of 10 and the word for that number.

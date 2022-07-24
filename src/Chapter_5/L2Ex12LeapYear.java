@@ -1,8 +1,9 @@
 /**
- * Level ex 9. One million is 106 and 1 billion is 109. Write a program that reads
- * a power of 10 (6, 9, 12, etc.) and displays how big the number is (Million, Billion, etc.).
- * Display an appropriate message for the input value that has no corresponding word.
- * The table below shows the correspondence between the power of 10 and the word for that number.
+ * Level2 ex 12. Write a program that replies either Leap Year or Not a Leap Year, given a
+year. It is a leap year if the year is divisible by 4 but not by 100 (for
+example, 1796 is a leap year because it is divisible by 4 but not by 100). A
+year that is divisible by both 4 and 100 is a leap year if it is also divisible by
+400 (for example, 2000 is a leap year, but 1800 is not).
  *
  */
 package Chapter_5;

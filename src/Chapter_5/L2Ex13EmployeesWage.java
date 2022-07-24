@@ -1,5 +1,5 @@
 /**
- * Level ex 11. Employees at MyJava Lo-Fat Burgers earn the basic hourly wage of $7.25.
+ * Level 2 ex 11. Employees at MyJava Lo-Fat Burgers earn the basic hourly wage of $7.25.
  * They will receive time-and-a-half of their basic rate for overtime hours.
  * In addition, they will receive a commission on the sales they generate
  * while tending the counter. The commission is based on the following
