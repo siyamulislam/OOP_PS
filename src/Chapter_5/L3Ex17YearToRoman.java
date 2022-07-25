@@ -28,14 +28,14 @@ public class L3Ex17YearToRoman {
     enum Romans {
         M(1000), CM(900), D(500), CD(400), C(100), XC(90), L(50), Xl(40), X(10), IX(9), V(5), IV(4), I(1);
 
-        private int romValue;
+        private int romanValue;
 
         private Romans(int valSet) {
-            this.romValue = valSet;
+            this.romanValue = valSet;
         }
 
         public int value() {
-            return this.romValue;
+            return this.romanValue;
         }
     }
 
@@ -48,11 +48,11 @@ public class L3Ex17YearToRoman {
         scan.close();
         System.out.print("Year in Roman: ");
         for (Romans ri : array) {
-            int printer = year / ri.value();
+            int count = year / ri.value();
             year = year % ri.value();
-            while (printer > 0) {
+            while (count > 0) {
                 System.out.print(ri);
-                printer--;
+                count--;
             }
         }
         System.out.println();
