@@ -14,7 +14,7 @@ import myutil.Person;
  *
  * @author Siam_PC
  */
-public class L1Ex14PersonTest {
+public class L1Ex16MealCardTest {
 
     public static void main(String[] args) {
         Person person = new Person();
