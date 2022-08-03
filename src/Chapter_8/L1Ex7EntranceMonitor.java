@@ -1,10 +1,8 @@
 /*
- * When you run Ch8TestAgelnputVer4 and enter a negative number, you
- will get an error message: “Sorry, you do not qualify to enter the junior
- competition.” However, when a negative number is entered, it is more
- appropriate to say “Illegal value: negative age is invalid.” Modify the
- TestInputVer4 class so that an appropriate error message is displayed for
- a negative input value.
+ *Level 1 Ex 7: Modify the getInput method of the InputHandler class from Section 8.7 so
+that the method will throw an exception when a blank string (a sequence of
+one or more blank spaces) is entered for the name, room, or password.
+Define a new exception class EmptyInputException.
  */
 package Chapter_8;
 
@@ -15,7 +13,7 @@ import java.util.Scanner;
  *
  * @author Siam
  */
-public class L1Ex6TestInputAge {
+public class L1Ex7EntranceMonitor {
 
     public static void main(String[] args) {
         int age;
