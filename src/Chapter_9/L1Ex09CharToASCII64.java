@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author Siam
  */
-public class L1Ex9CharToASCII64 {
+public class L1Ex09CharToASCII64 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
