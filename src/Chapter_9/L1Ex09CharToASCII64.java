@@ -20,7 +20,7 @@ public class L1Ex09CharToASCII64 {
         int ASCII;
 
         while (true) {
-            System.out.println("Enter a Character: ");
+            System.out.print("Enter a Character: ");
             character = sc.next();
             if (character.length() > 1) {
                 System.out.println("Error! Multiple Char Not Alloweed!");

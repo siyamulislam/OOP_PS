@@ -26,14 +26,14 @@ public class L1Ex10RevString {
             sentence = sc.nextLine();
             sb=new StringBuffer(sentence);
             if (sentence.length() > 1) {
-                for (int i=sb.length()-1;i>-1;i--){
+                for (int i=sb.length()-1;i>=0;i--){
                     System.out.print(sb.charAt(i));
                 }
                 System.out.println("");
                //insted of for loop by one line  :) 
               //  System.out.println(sb.reverse());
-                break;
             }
+             else break;
         }
     }
 }
