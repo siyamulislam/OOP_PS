@@ -2,7 +2,7 @@ package Chapter_4;
 
 class Circle {
 
-    final static double PI = 3.416;
+    final static double PI = 3.1416;
     private double radious;
 
     public void setRadious(double rd) {

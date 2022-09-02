@@ -22,8 +22,8 @@ public class L3Ex27inputToCountChar {
         text = sc.nextLine();
 
         System.out.println(text.length());
-//        System.out.println(text.substring(0,1));
-//System.out.println(text.substring(text.length()-1));
+        System.out.println(text.substring(0, 2));
+        System.out.println(text.substring(text.length() - 1));
         System.out.println(text.charAt(0));
         System.out.println(text.charAt(text.length() - 1));
     }
