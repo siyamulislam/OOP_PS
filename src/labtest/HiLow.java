@@ -14,27 +14,31 @@ import java.util.Scanner;
 public class HiLow {
 
     public static void main(String[] args) {
-        System.out.println("Enter a number(1-100):");
-        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter a number(1-100): ");
+        Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        int random =(int) Math.floor(Math.random());
-            System.out.println(random);
-            
-           
-        while (number!=random) {
-            if (number<random){
-                System.out.println("Low"); 
-                break;
-            } 
-            else if (number>random){
-                System.out.println("High");
-                 break;
-            } 
+        int random = (int) Math.floor(1 + (Math.random() * (100 - 1)));
+        int count=6;
 
+        while (number != random && count!=0) {
+            count--;
+            if (number < random) {
+                System.out.println("Tries left "+count);
+                System.out.print("Low! Please Choice greater than "+number+ " :");
+                  number = sc.nextInt();
+                continue;
+            } else if (number > random) {
+                 System.out.println("Tries left "+count);
+                 System.out.print("High! Please Choice lower than "+number+ " :");
+                  number = sc.nextInt();
+                continue;
+            } 
         }
+         if(number==random){ 
+                 System.out.println("Matched! Congratulation u win the game");
+        }
+         else if (count == 0){
+             System.out.println("NO Tries Left! Try Again");
+         }
     }
-    public static void readNum(){
-        
-    }
-
 }

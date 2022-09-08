@@ -16,7 +16,7 @@ public class RandomGen {
         Random random=new Random();
         int number0 =random.nextInt(3);
 //        int number1 =random.nextInt((4-2+1)+2); //not working
-         int number1 =(int)Math.floor(5+(Math.random()*(10-5)));
+         int number1 =(int)Math.floor(1+(Math.random()*(100-1)));
         System.out.println(number1);
         System.out.println( 5 + (Math.random() * (10 - 5)) );
     }
