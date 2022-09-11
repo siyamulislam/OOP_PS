@@ -5,7 +5,6 @@
  */
 package labtest;
 
-import java.util.Calendar;
 
 /**
  *
@@ -16,10 +15,7 @@ public class TimeMain {
     public static void main(String[] args) {
         DisplayTime dt = new DisplayTime();
         dt.ShowTime();
-
-        Calendar rightNow = Calendar.getInstance();
-        int hour = rightNow.get(Calendar.HOUR);
-        
+           
     }
 }
 

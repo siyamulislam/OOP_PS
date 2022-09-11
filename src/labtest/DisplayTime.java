@@ -4,18 +4,20 @@
  * and open the template in the editor.
  */
 package labtest;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Calendar;
 
 /**
  *
  * @author Lab-2
  */
-public class DisplayTIme {
+public class DisplayTime {
  public void ShowTime(){
-       Date today = new Date();
-        SimpleDateFormat sdf1 = new SimpleDateFormat("hh:mm:ss");
-        System.out.println(sdf1.format(today));
+      Calendar rightNow = Calendar.getInstance();
+        int hour = rightNow.get(Calendar.HOUR);
+        int minute = rightNow.get(Calendar.MINUTE);
+        int second = rightNow.get(Calendar.SECOND);
+        
+        Time tm =new Time(hour,minute,second);
+        System.out.println(tm.getTime()); 
    }
 }
