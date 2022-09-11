@@ -5,6 +5,8 @@
  */
 package labtest;
 
+import java.util.Calendar;
+
 /**
  *
  * @author Lab-2
@@ -12,8 +14,12 @@ package labtest;
 public class TimeMain {
 
     public static void main(String[] args) {
-        
-        DisplayTIme dt =new DisplayTIme();
+        DisplayTime dt = new DisplayTime();
         dt.ShowTime();
+
+        Calendar rightNow = Calendar.getInstance();
+        int hour = rightNow.get(Calendar.HOUR);
+        
     }
 }
+
