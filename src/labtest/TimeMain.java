@@ -15,7 +15,6 @@ public class TimeMain {
     public static void main(String[] args) {
         DisplayTime dt = new DisplayTime();
         dt.ShowTime();
-           
     }
 }
 

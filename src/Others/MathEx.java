@@ -22,6 +22,9 @@ public class MathEx {
         System.out.println(Math.cos(90)); //ceil()
         System.out.println(Math.sqrt(12.1)); //ceil()
         System.out.println(Math.log(12.1)); //ceil()
+        int a=2,b=53,c=46;
+        double Y= Math.sqrt( (b*b -4*a*c)/ (2* a) );
+        System.out.println(Y);
     }
 
 }
